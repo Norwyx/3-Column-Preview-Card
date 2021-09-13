@@ -1,0 +1,22 @@
+:root {
+    --bright-orange-clr: hsl(31, 77%, 52%);
+    --dark-cyan-clr:  hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --paragraphs-clr: hsla(0, 0%, 100%, 0.75);
+    --bg-btn-head-clr: hsl(0, 0%, 95%);
+  
+    --ff-big-shoulders: 'Big Shoulders Display', cursive;
+    --ff-lexend: "Lexend Deca", sans-serif;
+}
+    
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+   
+* {
+    margin: 0;
+    padding: 0;
+}
+
