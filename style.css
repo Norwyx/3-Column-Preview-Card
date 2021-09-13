@@ -112,3 +112,14 @@ textarea, button, input {
     border: 3px solid var(--bg-btn-head-clr);
     margin-bottom: -10rem;
 }
+
+/* Mobile version */
+@media only screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+    }
+
+    body {
+        margin: 5rem 0 0 0;
+    }
+}
