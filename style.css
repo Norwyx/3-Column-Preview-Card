@@ -21,6 +21,7 @@
 }
 
 body {
+    background-color: var(--bg-btn-head-clr);
     font-family: var(--ff-lexend);
     font-size: .9375rem;
     font-weight: 400;
@@ -106,7 +107,8 @@ textarea, button, input {
 /* Active states */
 .button:hover {
     cursor: pointer;
-    color: blue;
+    color: var(--bg-btn-head-clr) !important;
     background-color: transparent;
     border: 3px solid var(--bg-btn-head-clr);
+    margin-bottom: -10rem;
 }
